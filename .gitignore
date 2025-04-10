@@ -1,0 +1,12 @@
+# Environment variable file
+.env
+
+# Python cache
+__pycache__/
+
+# Virtual environment
+.venv/
+
+# ChromaDB and document storage
+chromadb/
+document_store/

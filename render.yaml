@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: chat-with-pdf
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run chat.py --server.port 10001 --server.enableCORS=false
+    envVars:
+      - key: GOOGLE_API_KEY
+        value: your-google-api-key
+      - key: EMBEDDING_MODEL
+        value: models/embedding-001
+      - key: LANGUAGE_MODEL
+        value: gemini-1.5-pro
+    plan: free
+    branch: main
+    autoDeploy: true
