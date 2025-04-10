@@ -32,7 +32,7 @@ A Streamlit web app that allows you to upload a PDF and chat with it using Googl
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/Thirumalai24/chat-with-pdf.git
+   git clone https://github.com/your_name_here/chat-with-pdf.git
    cd chat-with-pdf
    ```
 
